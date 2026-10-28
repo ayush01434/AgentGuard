@@ -45,3 +45,6 @@ def test_no_sources_found_summary_does_not_suggest_retrieved_candidates_exist():
     )
     assert "No external literature has been consulted" not in fixed
     assert "Retrieval did not produce usable academic source candidates" in fixed
+
+
+#test summary consistency

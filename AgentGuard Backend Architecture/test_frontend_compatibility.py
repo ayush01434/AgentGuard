@@ -148,3 +148,6 @@ async def test_frontend_compatibility_reuses_pdf_route(monkeypatch):
     assert body["telemetry"]["pagesParsed"] == 3
     assert body["capabilities"]["pdf_prompt_injection_detection"] is True
 
+
+
+#test frontend compatibility

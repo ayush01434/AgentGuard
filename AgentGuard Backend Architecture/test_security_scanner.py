@@ -114,3 +114,7 @@ def test_oauth_provider_list_only_enables_configured_providers(monkeypatch):
     response = client.get("/api/auth/oauth/providers")
     assert response.status_code == 200
     assert response.json()["providers"] == []
+
+
+
+#test security scanner

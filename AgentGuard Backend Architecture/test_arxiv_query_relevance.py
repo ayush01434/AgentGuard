@@ -132,3 +132,6 @@ def test_summary_reference_section_is_removed_if_llm_ignores_instruction():
     assert "concept drift" in cleaned
     assert "Academic literature" not in cleaned
     assert "Gama" not in cleaned
+
+
+# test arxiv query relevance

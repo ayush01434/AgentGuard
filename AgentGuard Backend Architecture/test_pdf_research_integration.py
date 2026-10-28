@@ -232,3 +232,6 @@ def test_prompt_injected_pdf_does_not_trigger_external_retrieval(monkeypatch):
     assert response.research_sources == []
     assert response.claim_evidence_reviews == []
     assert response.tool_execution_result == "NO TOOL EXECUTED"
+
+
+#test pdf research integration

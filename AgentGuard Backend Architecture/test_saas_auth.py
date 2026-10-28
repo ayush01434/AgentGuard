@@ -227,3 +227,7 @@ def test_session_last_active_is_recorded():
     assert session["lastActive"] >= session["createdAt"]
     assert session["isCurrent"] is True
 
+
+
+
+#test saas auth

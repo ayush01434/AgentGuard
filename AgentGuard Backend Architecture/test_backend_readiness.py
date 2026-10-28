@@ -51,3 +51,6 @@ def test_audit_normalization_preserves_analysis_only():
 
     assert _normalize_verdict("ANALYSIS_ONLY") == "ANALYSIS_ONLY"
     assert _normalize_verdict("unrecognized-audit-value") == "BLOCK"
+
+
+#test backend readiness

@@ -526,3 +526,5 @@ def test_arxiv_search_handles_network_failure(monkeypatch):
 
     assert "LIVE ARXIV SEARCH UNAVAILABLE" in result
     assert "No live citations were retrieved." in result
+
+#test agent gaurd.
