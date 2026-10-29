@@ -324,3 +324,6 @@ def test_guarded_retrieval_includes_final_abstract_assessment(monkeypatch):
     assert all(item.quote_validated for item in reviews[0].source_assessments)
     assert any(node.type == "EVIDENCE_ASSESSMENT" for node in lineage)
     assert "preliminary LLM-assisted comparison" in result_text
+
+
+# test claim evidence assessment

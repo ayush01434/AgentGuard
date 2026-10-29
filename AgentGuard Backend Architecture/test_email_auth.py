@@ -123,3 +123,7 @@ def test_reset_code_is_not_stored_in_plaintext(monkeypatch: pytest.MonkeyPatch, 
         assert len(rows[0]["otp_hash"]) == 64
     finally:
         conn.close()
+
+
+
+#test email auth
